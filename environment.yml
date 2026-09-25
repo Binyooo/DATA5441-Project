@@ -1,0 +1,19 @@
+name: data5441-graph-tool
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - graph-tool=3.9
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - networkx
+  - statsmodels
+  - tqdm
+  - pip
