@@ -1,0 +1,129 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+
+# ---------- Testing / coverage / linting ----------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---------- Datasets (too large / redistribution-restricted) ----------
+data/raw/*
+data/processed/*
+data/interim/*
+!data/**/.gitkeep
+!data/**/README.md
+*.pgm
+*.mat
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ---------- Experiment outputs ----------
+results/*
+!results/.gitkeep
+logs/
+*.log
+runs/
+checkpoints/
+wandb/
+mlruns/
+
+# Keep final figures/tables that go into the report
+!results/figures/**/*.png
+!results/figures/**/*.pdf
+!results/tables/**/*.csv
+
+# ---------- LaTeX (report) ----------
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+*.vrb
+*.run.xml
+*.bcf
+# keep the compiled report itself
+!report/*.pdf
+
+# ---------- Editors / IDEs ----------
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.spyproject/
+.ropeproject/
+
+# ---------- OS / OneDrive ----------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.tmp
+
+# ---------- Secrets / local config ----------
+.env
+.env.local
+*.local.yaml
+
+# data
+data/
+!src/data/
